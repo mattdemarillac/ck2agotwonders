@@ -1,0 +1,81 @@
+# 553 Vaes Kweho/Sarnath
+
+# County Title
+title = c_sarnath
+
+# Settlements
+max_settlements = 6
+
+b_sarnath = castle
+b_sarnath1 = city
+b_sarnath2 = temple
+b_sarnath3 = castle
+b_sarnath4 = city
+b_sarnath5 = castle
+
+# Misc
+culture = sarnorian
+religion = gods_sarnor
+
+#terrain = valyrianroad
+
+# History
+1.1.1 = {
+	b_sarnath = ca_asoiaf_sarnor_basevalue_1
+	b_sarnath = ca_asoiaf_sarnor_basevalue_2
+	b_sarnath = ca_asoiaf_sarnor_basevalue_3
+	b_sarnath = ca_asoiaf_sarnor_basevalue_4
+	b_sarnath = ca_asoiaf_sarnor_basevalue_5
+	b_sarnath = ca_asoiaf_sarnor_basevalue_6
+	
+	b_sarnath1 = ct_asoiaf_sarnor_basevalue_1
+	b_sarnath1 = ct_asoiaf_sarnor_basevalue_2
+	b_sarnath1 = ct_asoiaf_sarnor_basevalue_3
+	b_sarnath1 = ct_asoiaf_sarnor_basevalue_4
+	b_sarnath1 = ct_asoiaf_sarnor_basevalue_5
+	
+	b_sarnath3 = ca_asoiaf_sarnor_basevalue_1
+	b_sarnath3 = ca_asoiaf_sarnor_basevalue_2
+	b_sarnath3 = ca_asoiaf_sarnor_basevalue_3
+	
+	b_sarnath4 = ct_asoiaf_sarnor_basevalue_1
+	b_sarnath4 = ct_asoiaf_sarnor_basevalue_2
+	b_sarnath4 = ct_asoiaf_sarnor_basevalue_3
+	
+	b_sarnath5 = ca_asoiaf_sarnor_basevalue_1
+	b_sarnath5 = ca_asoiaf_sarnor_basevalue_2
+	b_sarnath5 = ca_asoiaf_sarnor_basevalue_3
+	build_wonder = wonder_palace_sarnath
+	set_wonder_stage = 4
+	build_wonder_upgrade = upgrade_golden_throne
+
+	#
+	build_wonder_upgrade = upgrade_torture_chamber
+	build_wonder_upgrade = upgrade_brewery
+	build_wonder_upgrade = upgrade_historical_mural
+	build_wonder_upgrade = upgrade_dueling_room
+
+	# OTHER:
+	build_wonder_upgrade = upgrade_roads
+	build_wonder_upgrade = upgrade_watchtower_network
+	build_wonder_upgrade = upgrade_spikes
+	build_wonder_upgrade = upgrade_tower
+	build_wonder_upgrade = upgrade_hypocausts
+	build_wonder_upgrade = upgrade_heating_pipes
+	build_wonder_upgrade = upgrade_road_tolls
+	build_wonder_upgrade = upgrade_tavern
+}
+7975.1.1 = {
+	culture = dothraki
+	religion = dothraki_pagan
+	remove_settlement = b_sarnath
+	remove_settlement = b_sarnath2
+	remove_settlement = b_sarnath3
+	remove_settlement = b_sarnath4
+	remove_settlement = b_sarnath5
+	
+	destroy_wonder = wonder_palace_sarnath
+	
+	b_sarnath1 = tribal
+	capital = b_sarnath1
+}

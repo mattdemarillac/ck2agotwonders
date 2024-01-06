@@ -1,0 +1,20 @@
+city = {	
+	ct_long_bridge = {
+		desc = ct_long_bridge
+		potential = {
+			FROMFROM = {
+				title = b_longbridge
+			}
+		}
+		trigger = { 
+			hidden_tooltip = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		}
+		
+		gold_cost = 300
+		tax_income = 2
+		build_time = 1825
+		ai_creation_factor = 110
+		
+		extra_tech_building_start = 100
+	}
+}

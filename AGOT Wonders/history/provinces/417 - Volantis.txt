@@ -1,0 +1,55 @@
+# 417 - Volantis
+
+# County Title
+title = c_volantis
+
+# Settlements
+max_settlements = 7
+
+b_volantis = city
+b_volantisgates = castle
+
+# Misc
+culture = rhoynar
+religion = rhoynar_pagan
+
+# History
+1.1.1 = {
+	b_volantis = ct_asoiaf_essos_basevalue_1
+	b_volantis = ct_asoiaf_essos_basevalue_2
+	b_volantis = ct_asoiaf_essos_basevalue_3
+	
+	b_volantisgates = ca_asoiaf_essos_basevalue_1
+	b_volantisgates = ca_asoiaf_essos_basevalue_2
+}
+4000.1.1 = {
+	culture = volantene
+	religion = rhllor
+	b_volantisharbor = city
+	b_brokengate = castle
+	b_longbridge = city
+	
+	b_volantis = ct_asoiaf_essos_basevalue_4
+	b_volantis = ct_asoiaf_essos_basevalue_5
+	b_volantis = ct_asoiaf_essos_basevalue_6
+	b_volantis = ct_asoiaf_essosshipyard
+	
+	b_volantis = ct_culture_indian_1
+
+	b_volantisharbor = ct_asoiaf_essos_basevalue_1
+	b_volantisharbor = ct_asoiaf_essos_basevalue_2
+	b_volantisharbor = ct_asoiaf_essos_basevalue_3
+	b_volantisharbor = ct_asoiaf_essosshipyard
+	
+	b_volantisgates = ca_asoiaf_essos_basevalue_3
+
+	b_brokengate = ca_asoiaf_essos_basevalue_1
+	b_brokengate = ca_asoiaf_essos_basevalue_2
+	b_brokengate = ca_asoiaf_essos_basevalue_3
+
+	b_longbridge = ct_asoiaf_essos_basevalue_1
+	b_longbridge = ct_asoiaf_essos_basevalue_2
+	b_longbridge = ct_asoiaf_essos_basevalue_3
+	b_longbridge = ct_asoiaf_essosshipyard
+	b_longbridge = ct_long_bridge
+}

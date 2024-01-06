@@ -1,0 +1,87 @@
+
+
+# County Title
+title = c_oldtown
+
+# Settlements
+max_settlements = 7
+b_the_hightower = castle
+b_oldtown = city
+b_starry_sept = temple
+b_the_citadel = city
+b_lords_sept = temple
+#b_sailors_sept = temple
+b_oakmere = castle
+b_hapsford = city
+
+# Misc
+culture = old_first_man
+religion = old_gods
+
+# History
+1.1.1 = {
+	b_the_hightower = ca_asoiaf_reach_basevalue_1
+	b_the_hightower = ca_asoiaf_reach_basevalue_2
+	b_the_hightower = ca_asoiaf_reach_basevalue_3
+	b_the_hightower = ca_asoiaf_reach_basevalue_4
+	b_the_hightower = ca_asoiaf_reach_basevalue_5
+	b_the_hightower = ca_asoiaf_oldtownshipyard
+	#b_the_hightower = ca_cellar_1
+	
+	b_starry_sept = tp_monastery_1
+	b_starry_sept = tp_monastery_2
+	
+	build_wonder = wonder_citadel
+	set_wonder_stage = 1
+	build_wonder_upgrade = upgrade_lighthouse
+}
+1.1.1 = {
+	b_oldtown = ct_asoiaf_reach_basevalue_1
+	b_oldtown = ct_asoiaf_reach_basevalue_2
+	b_oldtown = ct_asoiaf_reach_basevalue_3
+	b_oldtown = ct_asoiaf_reach_basevalue_4
+	b_oldtown = ct_asoiaf_reach_basevalue_5
+	b_oldtown = ct_asoiaf_reach_basevalue_6
+	b_oldtown = ct_asoiaf_oldtownshipyard
+}
+1.1.1 = {
+	b_the_citadel = ct_asoiaf_reach_basevalue_1
+	b_the_citadel = ct_asoiaf_reach_basevalue_2
+}
+1.1.1 = {
+	b_oakmere = ca_asoiaf_reach_basevalue_1
+	b_oakmere = ca_asoiaf_reach_basevalue_2
+}
+1.1.1 = {
+	b_hapsford = ct_asoiaf_reach_basevalue_1
+	b_hapsford = ct_asoiaf_reach_basevalue_2
+}
+2.1.1 = {
+	set_wonder_stage = 2
+}
+3.1.1 = {
+	set_wonder_stage = 3
+}
+5.1.1 = {
+	build_wonder_upgrade = upgrade_collection_math
+}
+6.1.1 = {
+	build_wonder_upgrade = upgrade_collection_architecture
+}
+7.1.1 = {
+	build_wonder_upgrade = upgrade_collection_drama
+}
+8.1.1 = {
+	build_wonder_upgrade = upgrade_collection_science
+}
+8.1.1 = {
+	build_wonder_upgrade = upgrade_collection_history
+}
+6700.1.1 = {
+	culture = reachman
+	religion = the_seven
+}
+8070.1.1 = { #Jaehaerys constructs road network
+	#b_the_hightower = ca_roseroad
+}
+

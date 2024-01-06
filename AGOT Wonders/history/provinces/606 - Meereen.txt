@@ -1,0 +1,77 @@
+# 606 - Meereen
+
+# County Title
+title = c_meereen
+
+# Settlements
+max_settlements = 7
+
+b_greatpyramidmeereen = castle
+b_meereen = city
+b_graces = temple
+b_plazaofmanycolors = city
+b_wallsmeereen = castle
+b_meereenharbor = city
+b_fightingpits = castle
+
+
+# Misc
+culture = ghiscari
+religion = harpy
+
+# History
+1.1.1 = {
+	b_meereen = ct_asoiaf_ghiscari_basevalue_1
+	b_meereen = ct_asoiaf_ghiscari_basevalue_2
+	b_meereen = ct_asoiaf_ghiscari_basevalue_3
+	b_meereen = ct_asoiaf_ghiscari_basevalue_4
+	b_meereen = ct_asoiaf_ghiscari_basevalue_5
+	b_meereen = ct_asoiaf_ghiscari_basevalue_6
+	
+	b_meereen = ct_culture_indian_1
+	b_meereen = ct_culture_indian_2
+	b_meereen = ct_culture_indian_3
+
+	b_meereen = ct_asoiaf_essosshipyard
+
+	b_greatpyramidmeereen = ca_asoiaf_ghiscari_basevalue_1
+	b_greatpyramidmeereen = ca_asoiaf_ghiscari_basevalue_2
+	b_greatpyramidmeereen = ca_asoiaf_ghiscari_basevalue_3
+	b_greatpyramidmeereen = ca_asoiaf_ghiscari_basevalue_4
+	b_greatpyramidmeereen = ca_asoiaf_ghiscari_basevalue_5
+	b_greatpyramidmeereen = ca_asoiaf_ghiscari_basevalue_6
+
+	b_plazaofmanycolors = ct_asoiaf_ghiscari_basevalue_1
+	b_plazaofmanycolors = ct_asoiaf_ghiscari_basevalue_2
+	b_plazaofmanycolors = ct_asoiaf_ghiscari_basevalue_3
+	b_plazaofmanycolors = ct_asoiaf_ghiscari_basevalue_4
+
+	b_wallsmeereen = ca_asoiaf_ghiscari_basevalue_1
+	b_wallsmeereen = ca_asoiaf_ghiscari_basevalue_2
+	b_wallsmeereen = ca_asoiaf_ghiscari_basevalue_3
+	b_wallsmeereen = ca_asoiaf_ghiscari_basevalue_4
+
+	b_meereenharbor = ct_asoiaf_ghiscari_basevalue_1
+	b_meereenharbor = ct_asoiaf_ghiscari_basevalue_2
+	b_meereenharbor = ct_asoiaf_ghiscari_basevalue_3
+	b_meereenharbor = ct_asoiaf_ghiscari_basevalue_4
+
+	b_fightingpits = ca_asoiaf_ghiscari_basevalue_1
+	b_fightingpits = ca_asoiaf_ghiscari_basevalue_2
+	b_fightingpits = ca_asoiaf_ghiscari_basevalue_3
+	b_fightingpits = ca_asoiaf_ghiscari_basevalue_4
+
+	trade_post = b_reznak
+	
+	build_wonder = wonder_amphitheater
+	set_wonder_stage = 1
+	build_wonder_upgrade = upgrade_training_academy
+	build_wonder_upgrade = upgrade_theater_stage
+}
+
+7886.1.1 = {
+	culture = meereenese
+	capital = b_meereen
+}
+
+8299.12.31={ capital = b_greatpyramidmeereen } #Daenerys becomes Queen
